@@ -90,7 +90,7 @@ nav a {
     color: white;
     font-family: "Roboto Condensed", sans-serif;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 25px;
 
     text-align: center;
     
@@ -110,11 +110,20 @@ nav a {
 
 .coursePic {
 
-    display:block;
-
-    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 
     max-width: 100%;
 
     border-radius: 50px;
+}
+
+exercisesFrame {
+    background-color: rgb(200, 100, 100);
+}
+
+firstExercises {
+
+    display: grid;
 }
