@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(39, 39, 39);
+}
+
+.loginBack {
+
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+
+    background-color: lightcoral;
+
+    width: 50%;
+}
+
+.loginGrid {
+
+    display:grid;
+
+}
