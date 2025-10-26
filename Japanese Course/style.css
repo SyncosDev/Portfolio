@@ -3,7 +3,7 @@ body {
     margin: 15px;
 }
 
-h2 {
+h2, h1 {
 
     color:white;
     text-align: center;
@@ -286,4 +286,27 @@ nav a {
 
     margin: 50px;
 
+}
+
+.logBack {
+
+    background-color: rgb(200, 100, 100);
+    margin: 100px;
+    padding: 50px;
+
+    border-radius: 50px;
+}
+
+.logBack fieldset {
+
+    color: white;
+    font-family: "Roboto Condensed", sans-serif;
+
+    width: 40%;
+    margin: 10px;
+}
+
+h1 {
+
+    font-size: 100px;
 }
