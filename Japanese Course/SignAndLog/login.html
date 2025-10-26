@@ -15,8 +15,25 @@
   <body>
     <h1> Login </h1>
     <form class="logBack">
-      <fieldset> Enter Username </fieldset>
-      <fieldset> Enter Password </fieldset>
+      <div class="leftLog">
+        <h3> Username </h3>
+      <input
+        type="text"
+        required
+        minlength="4"
+        maxlength="16"
+      />
+      <h3> Password </h3>
+      <input
+        type="password"
+        required
+        minlength="8"
+        maxlength="32"
+      />
+      </div>  
+      <div class="rightLog">
+        <h2> Other Login Methods </h2>
+      </div>
     </form>
   </body>
 </html>
